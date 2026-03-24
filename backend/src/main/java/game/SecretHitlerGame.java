@@ -30,8 +30,8 @@ public class SecretHitlerGame implements Serializable {
     // Keeps track of the number of fascists that should be in the game for a given
     // number
     // of players. - - - - - 5 6 7 8 9 10
-    public static final int[] NUM_FASCISTS_FOR_PLAYERS = { -1, -1, -1, -1, -1, 1, 1, 2, 2, 3, 3 };
-
+// We changed all the numbers from index 5 to 10 to be "2"
+public static final int[] NUM_FASCISTS_FOR_PLAYERS = { -1, -1, -1, -1, -1, 2, 2, 2, 2, 2, 2 };
     // The number of fascist and liberal policies in a standard deck.
     public static final int NUM_FASCIST_POLICIES = 11;
     public static final int NUM_LIBERAL_POLICIES = 6;
